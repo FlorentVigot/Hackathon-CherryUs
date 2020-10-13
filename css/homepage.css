@@ -2,8 +2,80 @@
   margin: 0;
   padding: 0;
 }
-
-h1 {
+body{
+    background-color:wheat;
+}
+/* h1 {
   color: red;
   text-align: center;
+  font-family: scriptorama-markdown-jf, sans-serif;
+} */
+/* Groupe1 */
+.presentation {
+  height: 15em;
+  background-color: whitesmoke;
+  display: block;
+}
+.presentation img {
+  height: 116px;
+  width: 207px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.presentation p{
+    text-align: center;
+    padding: 5%;
+}
+/* Groupe 2 */
+h2 {
+  text-align: center;
+  color: wheat;
+  background-color: skyblue;
+  font-family:"
+}
+.scannez {
+  height: 20em;
+  background-color: skyblue;
+  display: flex;
+}
+.bloc2G {
+  width: 50em;
+  height: 20em;
+}
+.bloc2G img {
+  margin-top: 50px;
+}
+.bloc2D {
+  width: 50em;
+  height: 20em;
+  background-color: wheat;
+}
+.bloc2D h3 {
+    text-align: center;
+}
+.bloc2D p {
+    font-size: 20px;
+    padding: 2%;
+}
+
+.footer{
+    display: flex;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 100em;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
 }

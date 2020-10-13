@@ -1,3 +1,9 @@
 /* Import CSS */
 
 @import "homepage.css";
+
+/* Import Font */
+@font-face {
+  font-family: "Sofia-regular";
+  src: url("font/Sofia-Regular");
+}
