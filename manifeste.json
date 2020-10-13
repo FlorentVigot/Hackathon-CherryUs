@@ -1,0 +1,16 @@
+{
+  "name": "YOKA",
+  "short_name": "YOKA",
+  "lang": "fr",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#009688",
+  "background_color": "#009688",
+  "icons": [
+    {
+      "src": "todo-logo.png",
+      "sizes": "512*512",
+      "type": "image/png"
+    }
+  ]
+}
