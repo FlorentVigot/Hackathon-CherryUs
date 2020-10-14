@@ -1,13 +1,14 @@
+p {
+  font-family: sofia-pro, sans-serif;
+  padding: 2%;
+}
+
 /*  VERTE  */
 
 .poubelle-verte {
-  height: 20em;
+  height: 12em;
   display: flex;
-  background-color: red;
-}
-
-.poubelle-verteG img {
-  margin-top: 50px;
+  margin-top: 5%;
 }
 
 .poubelle-verteD {
@@ -26,23 +27,19 @@
 /*  JAUNE  */
 
 .poubelle-jaune {
-  width: 50em;
-  height: 20em;
-  display: block;
-}
-.poubelle-jaune img {
-  margin-top: 50px;
+  height: 12em;
+  display: flex;
+  margin-top: 5%;
 }
 
-.poubelle-jaune-text {
-  width: 50em;
-  height: 20em;
+.poubelle-jauneD {
+  height: 10em;
   background-color: wheat;
 }
-.poubelle-jaune-text h3 {
+.poubelle-jauneD h3 {
   text-align: center;
 }
-.poubelle-jaune-text p {
+.poubelle-jauneD p {
   font-size: 20px;
   padding: 2%;
 }
@@ -50,22 +47,19 @@
 /*  GRISE  */
 
 .poubelle-grise {
-  width: 50em;
-  height: 20em;
-}
-.poubelle-grise img {
-  margin-top: 50px;
+  height: 12em;
+  display: flex;
+  margin-top: 5%;
 }
 
-.poubelle-grise-text {
-  width: 50em;
-  height: 20em;
+.poubelle-griseD {
+  height: 10em;
   background-color: wheat;
 }
-.poubelle-grise-text h3 {
+.poubelle-griseD h3 {
   text-align: center;
 }
-.poubelle-grise-text p {
+.poubelle-griseD p {
   font-size: 20px;
   padding: 2%;
 }
@@ -73,22 +67,19 @@
 /*  BLEU  */
 
 .poubelle-bleu {
-  width: 50em;
-  height: 20em;
-}
-.poubelle-bleu img {
-  margin-top: 50px;
+  height: 12em;
+  display: flex;
+  margin-top: 5%;
 }
 
-.poubelle-bleu-text {
-  width: 50em;
-  height: 20em;
+.poubelle-bleuD {
+  height: 10em;
   background-color: wheat;
 }
-.poubelle-bleu-text h3 {
+.poubelle-bleuD h3 {
   text-align: center;
 }
-.poubelle-bleu-text p {
+.poubelle-bleuD p {
   font-size: 20px;
   padding: 2%;
 }
