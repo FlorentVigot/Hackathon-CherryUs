@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+      background-color:wheat;
+  }
+  /* h1 {
+    color: red;
+    text-align: center;
+    font-family: scriptorama-markdown-jf, sans-serif;
+  } */
+  /* Groupe1 */
+  .presentation {
+    height: 15em;
+    background-color: whitesmoke;
+    display: block;
+  }
+  .presentation img {
+    height: 116px;
+    width: 207px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .presentation p{
+      text-align: center;
+      padding: 5%;
+  }
+  /* Groupe 2 */
+  h2 {
+    text-align: center;
+    color: wheat;
+    background-color: skyblue;
+    font-family:"
+  }
+  .scannez {
+    height: 20em;
+    background-color: skyblue;
+    display: flex;
+  }
+
+  /*  VERTE  */
+
+  .poubelle-verte {
+    width: 50em;
+    height: 20em;
+  }
+  .poubelle-verte img {
+    margin-top: 50px;
+  }
+
+  .poubelle-verte-text {
+    width: 50em;
+    height: 20em;
+    background-color: wheat;
+  }
+  .poubelle-verte-text h3 {
+      text-align: center;
+  }
+  .poubelle-verte-text p {
+      font-size: 20px;
+      padding: 2%;
+  }
+
+  /*  JAUNE  */
+
+  .poubelle-jaune {
+    width: 50em;
+    height: 20em;
+  }
+  .poubelle-jaune img {
+    margin-top: 50px;
+  }
+
+  .poubelle-jaune-text {
+    width: 50em;
+    height: 20em;
+    background-color: wheat;
+  }
+  .poubelle-jaune-text h3 {
+      text-align: center;
+  }
+  .poubelle-jaune-text p {
+      font-size: 20px;
+      padding: 2%;
+  }
+
+  /*  GRISE  */
+
+  .poubelle-grise {
+    width: 50em;
+    height: 20em;
+  }
+  .poubelle-grise img {
+    margin-top: 50px;
+  }
+
+  .poubelle-grise-text {
+    width: 50em;
+    height: 20em;
+    background-color: wheat;
+  }
+  .poubelle-grise-text h3 {
+      text-align: center;
+  }
+  .poubelle-grise-text p {
+      font-size: 20px;
+      padding: 2%;
+  }
+
+/*  BLEU  */
+
+  .poubelle-bleu {
+    width: 50em;
+    height: 20em;
+  }
+  .poubelle-bleu img {
+    margin-top: 50px;
+  }
+
+  .poubelle-bleu-text {
+    width: 50em;
+    height: 20em;
+    background-color: wheat;
+  }
+  .poubelle-bleu-text h3 {
+      text-align: center;
+  }
+  .poubelle-bleu-text p {
+      font-size: 20px;
+      padding: 2%;
+  }
+
+  /*  FOOTER  */
+  
+  .footer{
+      display: flex;
+      
+  }
+  ul{
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      width: 100em;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      background-color: #333;
+  }
+  
+  li a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
