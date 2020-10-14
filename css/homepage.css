@@ -26,6 +26,7 @@ body{
 .presentation p{
     text-align: center;
     padding: 5%;
+    font-family: sofia-pro, sans-serif;
 }
 /* Groupe 2 */
 h2 {
@@ -55,8 +56,9 @@ h2 {
     text-align: center;
 }
 .bloc2D p {
-    font-size: 20px;
+    font-size: 18px;
     padding: 2%;
+    font-family: sofia-pro, sans-serif;
 }
 
 .footer{
@@ -78,4 +80,5 @@ li a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: sofia-pro, sans-serif;
 }

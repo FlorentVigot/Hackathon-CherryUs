@@ -1,6 +1,6 @@
 {
-  "name": "YOKA",
-  "short_name": "YOKA",
+  "name": "Cherry'Use",
+  "short_name": "Cherry",
   "lang": "fr",
   "start_url": "/",
   "display": "standalone",
@@ -8,8 +8,8 @@
   "background_color": "#009688",
   "icons": [
     {
-      "src": "todo-logo.png",
-      "sizes": "512*512",
+      "src": "image/logo.jpg",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]
