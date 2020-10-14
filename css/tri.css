@@ -1,23 +1,25 @@
 /*  VERTE  */
 
 .poubelle-verte {
-  width: 50em;
   height: 20em;
+  display: flex;
+  background-color: red;
 }
-.poubelle-verte img {
+
+.poubelle-verteG img {
   margin-top: 50px;
 }
 
-.poubelle-verte-text {
-  width: 50em;
-  height: 20em;
+.poubelle-verteD {
+  height: 10em;
   background-color: wheat;
 }
-.poubelle-verte-text h3 {
+
+.poubelle-verteD h3 {
   text-align: center;
 }
-.poubelle-verte-text p {
-  font-size: 20px;
+.poubelle-verteD p {
+  font-size: 18px;
   padding: 2%;
 }
 
@@ -26,6 +28,7 @@
 .poubelle-jaune {
   width: 50em;
   height: 20em;
+  display: block;
 }
 .poubelle-jaune img {
   margin-top: 50px;
