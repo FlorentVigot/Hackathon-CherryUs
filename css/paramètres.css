@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+      background-color:rgb(63, 63, 63);
+  }
+  /* h1 {
+    color: red;
+    text-align: center;
+    font-family: scriptorama-markdown-jf, sans-serif;
+  } */
+  /* Groupe1 */
+  .presentation {
+    height: 15em;
+    background-color: whitesmoke;
+    display: block;
+  }
+  .presentation img {
+    height: 116px;
+    width: 207px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .presentation p{
+      text-align: center;
+      padding: 5%;
+      font-family: sofia-pro, sans-serif;
+  }
+  /* Groupe 2 */
+  h2 {
+    text-align: center;
+    color: wheat;
+    background-color: skyblue;
+    font-family: sofia-pro, sans-serif;
+  }
+  
+  .scannez {
+    height: 20em;
+    background-color: skyblue;
+    display: flex;
+  }
+
+  .settings{
+    margin: 15px;
+    padding: 15px;
+  }
+
+  .settings a{
+      text-decoration: none;
+      color: black;
+      font-family: sofia-pro, sans-serif;
+      background-color: rgb(105, 105, 105);
+      padding: 15px;
+      border-radius: 10px;
+      width: 300px;
+      height: 100px;
+  }
+  
+  /* Footer */
+  .footer{
+      display: flex;
+      
+  }
+  ul{
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      width: 100em;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      background-color: #333;
+  }
+  
+  li a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-family: sofia-pro, sans-serif;
+  }
+  
+  li img{
+      margin-top:10%;
+  }
