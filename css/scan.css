@@ -1,0 +1,34 @@
+/* Groupe 2 */
+h2 {
+    text-align: center;
+    color: wheat;
+    background-color: skyblue;
+    font-family:"
+  }
+  
+  .scannez {
+    height: 20em;
+    background-color: skyblue;
+    display: flex;
+  }
+  .bloc2G {
+    width: 50em;
+    height: 20em;
+  }
+  .bloc2G img {
+    margin-top: 50px;
+  }
+  .bloc2D {
+    width: 50em;
+    height: 20em;
+    background-color: wheat;
+  }
+  .bloc2D h3 {
+      text-align: center;
+  }
+  .bloc2D p {
+      font-size: 18px;
+      padding: 2%;
+      font-family: sofia-pro, sans-serif;
+  }
+  

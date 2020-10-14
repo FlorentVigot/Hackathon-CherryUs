@@ -19,23 +19,16 @@
         Cherry'Use est une application qui vous aide à mieux trier vos déchetes
       </p>
     </div>
-
-    <!-- <h2>Comment scanner ?</h2>
-    <div class="scannez">
-      <div class="bloc2G">
-        <img src="image/scan.png" alt="scan" />
-      </div>
-      <div class="bloc2D">
-        <h3>Simple et efficace</h3>
-        <p>
-          Pour scanner vos produits, vous devez cliquer sur le bouton scan.
-          Ensuite, pointez votre téléphone sur le code barre du produit, et
-          comme par magie, une information vous indiquera dans quelle poubelle
-          vous devez jeter votre produit !
-        </p>
-      </div>
+    <div class="qr">
+      <video id="vid" autoplay></video>
+      <!-- Boutons -->
+      <button onclick="myFunction()"><h3>Scannez</h3></button>
+      <p>
+        Scannez le code barre d'un emballage pour savoir où le recycler et
+        connaître ses substitues zéro-déchets !
+      </p>
     </div>
-    <div class="contact"></div> -->
+    <div class="texte"></div>
     <div class="footer">
       <ul>
         <li>
@@ -52,5 +45,20 @@
         </li>
       </ul>
     </div>
+    <script>
+      function myFunction() {
+        navigator.mediaDevices
+          .getUserMedia({
+            video: {
+              height: 300,
+              width: 150,
+              framework: 1,
+            },
+          })
+          .then((stream) => {
+            document.getElementById("vid").srcObject = stream;
+          });
+      }
+    </script>
   </body>
 </html>

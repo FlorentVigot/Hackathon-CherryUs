@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
 }
-body{
-    background-color:wheat;
+body {
+  background-color: white;
 }
 /* h1 {
   color: red;
@@ -13,7 +13,7 @@ body{
 /* Groupe1 */
 .presentation {
   height: 15em;
-  background-color: whitesmoke;
+  background-color: white;
   display: block;
 }
 .presentation img {
@@ -23,69 +23,61 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
-.presentation p{
-    text-align: center;
-    padding: 5%;
-    font-family: sofia-pro, sans-serif;
-}
-/* Groupe 2 */
-h2 {
+.presentation p {
   text-align: center;
-  color: wheat;
-  background-color: skyblue;
-  font-family:"
+  padding: 5%;
+  font-family: sofia-pro, sans-serif;
 }
-
-.scannez {
-  height: 20em;
-  background-color: skyblue;
+/* QR scan */
+.qr {
+  height: 30em;
+}
+button {
   display: flex;
+  background-image: linear-gradient(
+    90deg,
+    #db0f4e 0%,
+    #d64c7e 35%,
+    #f8cbe5 100%
+  );
+  height: 50px;
+  width: 180px;
+  border-radius: 30px;
+  margin: auto;
+  border: 0;
 }
-.bloc2G {
-  width: 50em;
-  height: 20em;
+button h3 {
+  margin: auto;
+  color: aliceblue;
+  font-size: 25px;
 }
-.bloc2G img {
-  margin-top: 50px;
+.qr p {
+  margin-top: 10%;
+  font-family: sofia-pro, sans-serif;
 }
-.bloc2D {
-  width: 50em;
-  height: 20em;
-  background-color: wheat;
-}
-.bloc2D h3 {
-    text-align: center;
-}
-.bloc2D p {
-    font-size: 18px;
-    padding: 2%;
-    font-family: sofia-pro, sans-serif;
-}
-
 
 /* Footer */
-.footer{
-    display: flex;
-    
+.footer {
+  display: flex;
 }
-ul{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    width: 100em;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    background-color: #333;
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 100em;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 li a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: sofia-pro, sans-serif;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sofia-pro, sans-serif;
 }
 
-li img{
-    margin-top:10%;
+li img {
+  margin-top: 10%;
 }
